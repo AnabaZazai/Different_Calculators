@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	background-color: lightblue;
+	/* background-color: lightblue; */
 	outline: none;
 	font-display: sans-serif;
 
@@ -11,6 +11,10 @@
 .sidebar{
     height:500px;
 	width:500px;
+	margin-top: 200px;
+	font-weight: bold;
+	/* margin-left: 200px; */
+	
 
 
 }
@@ -23,20 +27,20 @@
 }
 
 .calculator{
-	background-color: #ecf0f3;
+	background-color: rgb(160, 225, 245);
 	padding: 50px;
 	box-shadow: inset 5px 5px 12px #ffffff;
 	                 5px 5px 12px rgba(0,0,0,.16);
 	display: grid;
 	grid-template-columns: repeat(4,68px);   
-	margin-left: 40px;        
+	/* margin-left: 40px;         */
 }
 
 input{
 	grid-column: span 4;
 	height: 70px;
 	width: 260px;
-	background-color: #lightblue;
+
 	box-shadow: inset -5px -5px 12px #ffffff;
 	                   5px 5px 12px 12px rgba(0,0,0,.16);
 	border: none;
@@ -49,24 +53,49 @@ input{
 	margin-bottom: 30px;
 	padding: 20px;
 
+	background-color:rgb(78, 160, 187);
+	font-weight: bold;
+
 }
 
 button
 {
 	height: 48px;
 	width: 48px;
-	background-color: lightblue;
+	background-color: rgb(78, 160, 187);
+	background-color: 
 	box-shadow: -5px -5px 12 #fffffff;
 	border: none;
 	border-radius: 50%;
 	margin: 8px;
 	font-size: 16px;
+	font-weight: bold;
+	
 }
 
 .equal{
 	width: 115px;
 	border-radius: 40px;
-	background-color: lightblue;
+	background-color: rgb(78, 160, 187);
+
 	box-shadow: inset -5px -5px 12px #ffffff;
 	                   5px 5px 12px 12px rgba(0,0,0,.16);
+}
+
+.linkbutton{
+	 display: block;
+	height: 48px;
+	width: 400px;
+	 box-shadow: -5px -5px 12 #fffffff; 
+	border: none;
+	border-radius: 50%;
+	/* margin: 8px; */
+	font-size: 35px; 
+
+	
+	
+	text-align: center;
+	text-decoration: none;
+	color:black;
+
 }

@@ -2,9 +2,10 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	background-color: lightblue;
+	/* background-color: rgb(88, 159, 178); */
 	outline: none;
 	font-display: sans-serif;
+	
 
 }
 
@@ -12,6 +13,9 @@
 .sidebar{
     height:500px;
 	width:500px;
+	margin-top: 200px;
+	font-weight: bold;
+	/* margin-left: 100px; */
 	
 
 }
@@ -24,14 +28,15 @@
 }
 
 .calculator{
-	background-color: #ecf0f3;
+	background-color: rgb(160, 225, 245);
 	padding: 50px;
-	box-shadow: inset 5px 5px 12px #ffffff;
-	                 5px 5px 12px rgba(0,0,0,.16);
+	 box-shadow: inset 5px 5px 12px #ffffff;
+	                 5px 5px 12px rgba(0,0,0,.16); 
 	display: grid;
 	grid-template-columns: repeat(4,68px);  
-	margin-left: 250px; 
-	margin-top: 50px;         
+	/* margin-left: 250px;  */
+	margin-top: 50px;   
+	      
 }
 
 .firstinput{
@@ -43,34 +48,37 @@
 	                   5px 5px 12px 12px rgba(0,0,0,.16);
 	border: none;
 	border-radius: 30px;
-	color : rgba(70, 70, 70);
 	font-size: 30px;
 	text-align: end;
-	font-style: black;
+	color: black;
 	margin: auto;
 	margin-top: 40px;
 	margin-bottom: 30px;
 	padding: 20px;
-	background-color: lightblue;
+	background-color:rgb(78, 160, 187);
+	font-weight: bold;
+
+	
 
 }
 
 button
 {
 	height: 48px;
-	width: 48px;
-	background-color: lightblue;
+	width: 50px;
+	background-color: rgb(78, 160, 187);
 	box-shadow: -5px -5px 12 #fffffff;
 	border: none;
 	border-radius: 50%;
 	margin: 8px;
 	font-size: 16px;
+	font-weight: bold;
 }
 
 .equal{
 	width: 150px;
 	border-radius: 40px;
-	background-color: lightblue;
+	background-color: rgb(78, 160, 187);
 	box-shadow: inset -5px -5px 12px #ffffff;
 	                   5px 5px 12px 12px rgba(0,0,0,.16);
 }
@@ -78,3 +86,25 @@ button
 /* #show{
 	display: inline-flex;
 } */
+
+
+.linkbutton{
+	display: block;
+   height: 48px;
+   width: 400px;
+  
+	box-shadow: -5px -5px 5px -5 #fffffff; 
+   border: none;
+   border-radius: 50%;
+   /* margin: 8px; */
+   font-size: 35px;
+    
+
+   
+   
+   text-align: center;
+   text-decoration: none;
+   color: black;
+   
+   
+}
